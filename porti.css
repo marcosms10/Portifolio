@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    background-color: #222;
+    color: #e5e5e5;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+    color: #e5e5e5;
+    font-weight: 700;
+}
+
+.portfolio-grid {
+    margin: 0px 30px auto;
+}
+
+.portfolio-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo {
+    margin: 20px 0px 15px 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.portfolio-images img {
+    width: 350px;
+    height: 200px;
+}
+
+.portfolio-overlay {
+    width: 35%;
+}
+
+.arte a{
+    color: #007ced;
+    text-decoration:underline;
+}

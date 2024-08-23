@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    background-color: #222;
+    color: #e5e5e5;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+    color: #e5e5e5;
+    font-weight: 700;
+}
+
+.main {
+    margin: 20px 30px auto;
+}
+
+.social {
+    margin-top: 5px;
+}
+
+.social i {
+    color: #e5e5e5;
+    font-size: 18px;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+
+.social i:hover {
+    color: #007ced;
+    transform: rotate(360deg);
+}
+
+.social a {
+    color: #e5e5e5;
+    margin-right: 15px;
+}
+
+.globe {
+    margin-top: 10px;
+}
+
+.about {
+    margin-top: 40px;
+}
+
+.education {
+    margin-top: 40px;
+}
+
+.school {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.education p {
+    margin-top: 3px;
+}
+
+.skills {
+    margin-top: 40px;
+}
+
+.group-skills {
+    margin-top: 10px;
+    display: flex;
+}
+
+.group-skills h4 {
+    padding: 5px 10px;
+    background-color: #333;
+    margin-right: 10px;
+    border-radius: 10%;
+}
+
+.work {
+    margin-top: 40px;
+}
+
+.works {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job {
+    margin-right: 20px;
+    font-weight: 800;
+}
+
+.type {
+    font-weight:100;
+}
+
+.work p {
+    margin-top: 5px;
+}
+
+.about-work {
+    margin-top: 20px;
+}
+
+.respo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.respo-text {
+    margin-top: 5px;
+}
