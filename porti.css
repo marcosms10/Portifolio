@@ -51,3 +51,41 @@ h1, h2, h3, h4, h5, h6 {
     color: #007ced;
     text-decoration:underline;
 }
+
+
+/*BREAKPOINTS*/
+
+@media screen and (max-width: 767px) {
+    .portfolio-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio-overlay {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .portfolio-overlay:last-child {
+        margin-top: 40px;
+    }
+
+    .portfolio-images {
+        order: 1;
+    }
+
+    .portfolio-images img {
+        width: 100%;
+        height: auto;
+    }
+  }
+  
+
+@media screen and (max-width: 768px) {
+
+  }
+  
+
+@media screen and (min-width: 1023px) {
+
+  }

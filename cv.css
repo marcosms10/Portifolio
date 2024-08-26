@@ -121,3 +121,22 @@ h1, h2, h3, h4, h5, h6 {
 .respo-text {
     margin-top: 5px;
 }
+
+
+/*BREAKPOINTS*/
+
+@media screen and (max-width: 767px) {
+    .social a:first-child {
+       word-break: break-all;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  }
+  
+
+@media screen and (min-width: 1023px) {
+
+  }

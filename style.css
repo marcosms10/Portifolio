@@ -120,7 +120,22 @@ h1, h2, h3, h4, h5, h6 {
 /*BREAKPOINTS*/
 
 @media screen and (max-width: 767px) {
-    
+    .hero-text h1 {
+        font-size: 30px;
+    }
+
+    .btn:last-child {
+        margin-top: 20px;
+        width: 115px;
+        display: flex;
+    }
+
+   
+    .social p {
+        display: inline-flex;
+        align-items: center;
+    }
+
   }
   
 
@@ -133,6 +148,7 @@ h1, h2, h3, h4, h5, h6 {
     .hero-text {
         padding: 40px 0px ;
     }
+
   }
   
 
