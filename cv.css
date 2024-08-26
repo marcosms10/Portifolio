@@ -119,7 +119,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .respo-text {
-    margin-top: 5px;
+    list-style-type: circle;
+}
+
+.job  {
+   margin-bottom: 50px;
 }
 
 
